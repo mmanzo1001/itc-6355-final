@@ -1,0 +1,84 @@
+
+.input-email{
+  text-align: center;
+}
+.title {
+  text-align:center;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.text {
+  font-size: 1.5vw;
+  display: inline-block;
+}
+
+.line {
+  border-top: 2px solid #984b43;
+  display: inline-block;
+  padding: 3.5px;
+  width: 37%;
+}
+
+
+.footer{
+
+     padding:0;
+}
+.footer-service,
+.footer-Shipping,
+.footer-About,
+.footer-Technology,
+.footer-Help{
+    text-align:left;
+  vertical-align:top;
+  margin:3%;
+  padding:0.5%;
+  display:inline-block;
+}
+ @media screen and (max-width:1400px){
+   .footer-service,
+   .footer-Shipping,
+   .footer-About,
+   .footer-Technology,
+   .footer-Help{
+     font-size:80%;
+     margin:2.5%;
+   }
+   @media screen and (max-width:1200px){
+     .footer-service,
+     .footer-Shipping,
+     .footer-About,
+     .footer-Technology,
+     .footer-Help{
+       font-size:60%;
+       margin:2%;
+     }
+@media screen and (max-width:1000px){
+     .footer-service,
+     .footer-Shipping,
+     .footer-About,
+     .footer-Technology,
+     .footer-Help{
+       font-size:50%;
+       margin:1.5%;
+       }
+@media screen and (max-width:800px){
+     .footer-service,
+     .footer-Shipping,
+     .footer-About,
+     .footer-Technology,
+     .footer-Help{
+       font-size:40%;
+       margin:1%;
+         }
+@media screen and (max-width:400px){
+      .footer-service,
+      .footer-Shipping,
+      .footer-About,
+      .footer-Technology,
+      .footer-Help{
+        font-size:40%;
+        margin: 0.5%;
+    }

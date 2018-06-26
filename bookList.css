@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+.title {
+  text-align:center;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.text {
+  font-size: 1vw;
+  display: inline-block;
+
+}
+
+
+.line {
+  border-top: 2px solid #984b43;
+  display: inline-block;
+  padding: 3.5px;
+
+}
+
+.top{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 50px
+}
+.bottom{
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  padding-top:10px;
+}
+
+
+section{
+  width: 50%;
+  background: white;
+
+}
+aside{
+  width: 50%;
+  background-color: white;
+}
+aside p {
+  font-size: 12px;
+}
+section p {
+  font-size: 12px;
+}
+
+img{
+	height: 200px;
+	width: 148px;
+}
+
+
+.books{
+    margin-top: 45px;
+    padding-top: 5px;
+    text-align: center;
+    width:100%;
+}
+
+.list {
+    margin-top: 45px;
+    padding-top: 5px;
+    margin-left: : 20px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.list td, .list th {
+
+    text-align: left;
+}
+
+
+.list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Grey;
+    color: black;
+}
+
+.bookListBody{
+  margin-left: 30px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  grid: auto / 20% 80%;
+}

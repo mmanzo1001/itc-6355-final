@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel ="stylesheet" type="text/css" href="./bookList.css">
+    <link rel="stylesheet" href="./footer.css">
+    <!--mag image-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>BookList</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="w3-center w3-row">
+        <!-- logo -->
+        <div class="w3-quarter imgs">
+          <a href="index.html"><img src="./img/logo.png" style="height:50%;width:50%" alt="home"></a>
+        </div>
+        <!-- search box -->
+        <div class="w3-half searchbox">
+          <form class="search" action="#search">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <div class="rest">
+          <!-- shopping cart link -->
+          <div class="cart">
+          <a href="cart.html"><img src="./487601-sales/png/006-shopping-cart.png" style="height:100%;width:100%" alt="cart"></a>
+          </div>
+          <div class="account">
+        <!-- account(person-image) link -->
+         <a href="account.html"><img src="./487601-sales/png/054-clerk-1.png" style="height:100%;width:100%" alt=""></a>
+       </div>
+        </div>
+      </div>
+      <!-- Navigation Bar -->
+        <div class="w3-center w3-row">
+          <div class="w3-bar w3-center" style="padding-bottom:25px">
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Science &amp; Technology</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Science</a>
+                <a href="#" class="w3-bar-item w3-button">Technology</a>
+                <a href="#" class="w3-bar-item w3-button">Awards</a>
+                <a href="#" class="w3-bar-item w3-button">Engineering</a>
+                <a href="#" class="w3-bar-item w3-button">History</a>
+                <a href="#" class="w3-bar-item w3-button">Tech. Studies</a>
+                <a href="#" class="w3-bar-item w3-button">STEM Fields</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Literature</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Science fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Satire</a>
+                <a href="#" class="w3-bar-item w3-button">Drama</a>
+                <a href="#" class="w3-bar-item w3-button">Action and Adventure</a>
+                <a href="#" class="w3-bar-item w3-button">Romance</a>
+                <a href="#" class="w3-bar-item w3-button">Mystery</a>
+                <a href="#" class="w3-bar-item w3-button">Horror</a>
+                <a href="#" class="w3-bar-item w3-button">Self Help</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Kids</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">History</a>
+                <a href="#" class="w3-bar-item w3-button">Growing Up</a>
+                <a href="#" class="w3-bar-item w3-button">Boys</a>
+                <a href="#" class="w3-bar-item w3-button">Girls</a>
+                <a href="#" class="w3-bar-item w3-button">Animals</a>
+                <a href="#" class="w3-bar-item w3-button">Illustration</a>
+                <a href="#" class="w3-bar-item w3-button">Education</a>
+                <a href="#" class="w3-bar-item w3-button">Infant to 2 Years</a>
+                <a href="#" class="w3-bar-item w3-button">3 to 5 Years</a>
+                <a href="#" class="w3-bar-item w3-button">6 to 9 Years</a>
+                <a href="#" class="w3-bar-item w3-button">10 to 12 Years</a>
+                <a href="#" class="w3-bar-item w3-button">12 Years &amp; Up</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Education</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Homeschooling</a>
+                <a href="#" class="w3-bar-item w3-button">Early Childhood Education</a>
+                <a href="#" class="w3-bar-item w3-button">Common Core</a>
+                <a href="#" class="w3-bar-item w3-button">Curriculum &amp; Lession Plans</a>
+                <a href="#" class="w3-bar-item w3-button">Teacher &amp; Student Mentoring</a>
+                <a href="#" class="w3-bar-item w3-button">Instruction Methods</a>
+                <a href="#" class="w3-bar-item w3-button">Student Life</a>
+                <a href="#" class="w3-bar-item w3-button">Certification &amp; Development</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Humanities &amp; Social Sciences</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Anthropology</a>
+                <a href="#" class="w3-bar-item w3-button">Communication Studies</a>
+                <a href="#" class="w3-bar-item w3-button">Economics</a>
+                <a href="#" class="w3-bar-item w3-button">Education</a>
+                <a href="#" class="w3-bar-item w3-button">Geography</a>
+                <a href="#" class="w3-bar-item w3-button">Law</a>
+                <a href="#" class="w3-bar-item w3-button">Political Science</a>
+                <a href="#" class="w3-bar-item w3-button">Psychology</a>
+                <a href="#" class="w3-bar-item w3-button">Sociology</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Motivational</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Adiction &amp; Recovery</a>
+                <a href="#" class="w3-bar-item w3-button">Aging</a>
+                <a href="#" class="w3-bar-item w3-button">Dating</a>
+                <a href="#" class="w3-bar-item w3-button">Divorce</a>
+                <a href="#" class="w3-bar-item w3-button">Emotional Healing</a>
+                <a href="#" class="w3-bar-item w3-button">Marriage</a>
+                <a href="#" class="w3-bar-item w3-button">Personal Growth</a>
+                <a href="#" class="w3-bar-item w3-button">Sexuality</a>
+                <a href="#" class="w3-bar-item w3-button">Weddings</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Life</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Non-Fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Comming of Age</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Although</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Humor</a>
+                <a href="#" class="w3-bar-item w3-button">Lingustics</a>
+                <a href="#" class="w3-bar-item w3-button">Reference</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Other</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Sports</a>
+                <a href="#" class="w3-bar-item w3-button">Gardening</a>
+                <a href="#" class="w3-bar-item w3-button">Painting</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="rose-2101475.jpg" alt="book" style="width:100%;height:100%;">
+  <div class="w3-container w3-display-left w3-margin-bottom w3-text-black">
+    <h1>Science and Technology</h1>
+  </div>
+</div>
+
+
+<div class="bookListBody">
+<!-- bookList -->
+
+<div>
+<table class="list">
+  <tr>
+    <th>Popular Science</th>
+  </tr>
+  <tr>
+    <td><a href="">The universe</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Encyclopedia</a></td>
+  </tr>
+  <tr>
+    <td><a href="">The Scientific World</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Biological World</a></td>
+  </tr>
+  <tr>
+    <th>Computer/Network</th>
+  </tr>
+  <tr>
+    <td><a href="">Java</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Python</a></td>
+  </tr>
+  <tr>
+    <td><a href="">C Language</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Spring</a></td>
+  </tr>
+  <tr>
+    <td><a href="">PHP</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Android</a></td>
+  </tr>
+  <tr>
+    <td><a href="">LosSwift</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Operating System</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Database</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Deep Learning</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Network Security</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Office Software</a></td>
+  </tr>
+  <tr>
+    <th>Architecture</th>
+  </tr>
+  <tr>
+    <td><a href="">Standard</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Specification</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Interior Design</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Building Science</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Architectural Culture</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Building Construction</a></td>
+  </tr>
+  <tr>
+    <td><a href="">The City Planning</a></td>
+  </tr>
+  <tr>
+    <th>Popular Science</th>
+  </tr>
+  <tr>
+    <td><a href="">The universe</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Encyclopedia</a></td>
+  </tr>
+  <tr>
+    <td><a href="">The Scientific World</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Biological World</a></td>
+  </tr>
+  <tr>
+    <th>Medical</th>
+  </tr>
+  <tr>
+    <td><a href="">Internal Medicine</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Surgery</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Pharmaceutical</a></td>
+  </tr>
+  <tr>
+    <td><a href="">The Department of Obstetrics and Gynecology</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Pediatrics</a></td>
+  </tr>
+  <tr>
+    <th>Industrial Technology</th>
+  </tr>
+  <tr>
+    <td><a href="">Electrical</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Chemical</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Light Industry</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Automative Engineering</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Mechanical</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Environmental Science</a></td>
+  </tr>
+  <tr>
+    <th>Natural Science</th>
+  </tr>
+  <tr>
+    <td><a href="">Mathematics</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Physical</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Chemical</a></td>
+  </tr>
+</table>
+</div>
+
+
+<!-- Books -->
+<div>
+<table class="books">
+
+                    <tr>
+                      <td>
+                          <div>
+                            <a href="">
+                              <img alt="book" src="./imag/9781524763558_p0_v2_s550x406.jpg">
+                            </a>
+                          </div>
+                          <div>
+                              <span>A Place for Us</span><br/>
+                              <span style="color:blue;">by Fatima Farheen</span></br>
+                                <span style="color:green;">Hardcover $17.33</span></br>
+                              <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                      <td>
+                          <div>
+                            <a href="">
+                              <img alt="book" src="./imag/9780448494500_p0_v1_s550x406.jpg">
+                            </a>
+                          </div>
+                          <div>
+                              <span>A Reaper at the Ga... </span><br/>
+                              <span style="color:blue;">by Sabaa Tahir</span></br>
+                                <span style="color:green;">Hardcover $13.99</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                      <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9780735215924_p0_v1_s550x406.jpg">
+                            </a>
+                          </div>
+                          <div>
+                              <span>Tom Clancy Line of...</span><br/>
+                              <span style="color:blue;">by Mike Maden</span></br>
+                                <span style="color:green;">Hardcover $17.40</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9781501171925_p0_v2_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>The Woman in the...</span><br/>
+                              <span style="color:blue;">by John Connolly</span></br>
+                                <span style="color:green;">Hardcover $22.03</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="book_detail.html">
+                              <img alt="book" src="./imag/9780399594090_p0_v5_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>Before the Storm (...</span><br/>
+                              <span style="color:blue;">by Christie Golden</span></br>
+                                <span style="color:green;">Hardcover $17.98</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9781101987827_p0_v2_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>Ocean Light (Psy-C...</span><br/>
+                              <span style="color:blue;">by Nalini Singh</span></br>
+                                <span style="color:green;">Hardcover $21.20</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9780316412698_p0_v4_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>The President is ...</span><br/>
+                              <span style="color:blue;">by Bill Clinton and .../span></br>
+                                <span style="color:green;">Hardcover $17.99</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9780062427137_p0_v4_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>The Plant Paradox</span><br/>
+                              <span style="color:blue;">by Steven R Gundry M.D.</span></br>
+                                <span style="color:green;">Hardcover $18.61</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9781501180989_p0_v4_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>The Outsider</span><br/>
+                              <span style="color:blue;">by Stephen King</span></br>
+                                <span style="color:green;">Hardcover $17.99</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9781501180989_p0_v4_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>Kitchen Confident...</span><br/>
+                              <span style="color:blue;">by Anthony Bourdain</span></br>
+                                <span style="color:green;">Hardcover $10.51</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9780451492104_p0_v2_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>Brief Cases (Dresd...</span><br/>
+                              <span style="color:blue;">by Jim Butcher</span></br>
+                                <span style="color:green;">Hardcover $16.80</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                       <td>
+                          <div>
+                              <a href="">
+                              <img alt="book" src="./imag/9781501160790_p0_v3_s550x406.jpg">
+                              </a>
+                          </div>
+                          <div>
+                              <span>Us Against You</span><br/>
+                              <span style="color:blue;">by Fredrik Backman</span></br>
+                                <span style="color:green;">Hardcover $19.58</span></br>
+                               <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                          </div></br></br>
+                      </td>
+                    </tr>
+
+</table>
+
+</div>
+</div>
+
+
+
+<footer>
+  <nav class="footer navigation" aria-label="网站目录" role="navigation">
+<!--footer-->
+
+<div class="title">
+    <div class="line"></div>
+    <div class="text">Sign up for special offers</div>
+    <div class="line"></div>
+  </div>
+<br>
+<div class="input-email">
+  <input type="text" name="email"
+  placeholder="   your@email.com"
+  value=""
+  style="width:400px; height:40px; border-radius: 10px; border:0.5px  solid #984b43;"/>
+  <button type="button"
+  class="close"
+  data-dismiss="modal"
+  aria-hidden="true"
+  style="width:60px; height:40px; border-radius: 10px; background-color: #ff6600;  border:2px #984b43; color: black;"/>
+                  ➡
+
+      </button>
+<br><br><br>
+</div>
+<hr width="100%" color="#984b43" style="border:1px solid #984b43"/>
+<div class="footer" style=" text-align:center;">
+<div class="footer-service">
+  <h2>Services</h2>
+  <a href="/nothing">Advertise</a><br>
+  <a href="/nothing">Affliate Program</a><br>
+  <a href="/nothing">Publisher & Author Guidelines</a><br>
+  <a href="/nothing">Order Discounts</a><br>
+  <a href="/nothing">Membership</a><br>
+  <a href="/nothing">Mastercard</a><br>
+  <a href="/nothing">Kids' Club</a><br>
+  <a href="/nothing">Educators</a><br>
+  <a href="/nothing">Bookfairs</a><br>
+</div>
+<div class="footer-Shipping">
+    <h3>Shipping</h3>
+    <a href="/nothing">Shipping FAQs</a><br>
+</div>
+ <div class="footer-About">
+      <h3>About Us</h3>
+  <a href="/nothing">About Book store</a><br>
+  <a href="/nothing">Investor Relations</a><br>
+  <a href="/nothing">Careers</a><br>
+</div>
+<div class="footer-Technology">
+        <h3>Technology</h3>
+    <a href="/nothing">Tablets & eReaders</a><br>
+    <a href="/nothing">Mobile Apps</a><br>
+  </div>
+<div class="footer-Help">
+          <h3>Quick Help</h3>
+    <a href="/nothing">Customer Service</a><br>
+    <a href="/nothing">Buy Online, Pick up in Store</a><br>
+    <a href="/nothing">Order Status</a><br>
+    <a href="/nothing">Easy Returns</a><br>
+    <a href="/nothing">Product Recalls</a><br>
+    <a href="/nothing">Corrections & Updates</a><br>
+    <a href="/nothing">eBook Settlement</a><br>
+</div>
+</div>
+
+<hr width="100%" color="#984b43" style="border:2 solid #984b43"/>
+<div class="contect" style=" text-align: center;">
+<a class="text1" href="/nothing"style="border:200px solid none; margin-right: 30px"/>Terms of Use
+<a class="text2" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Copyright & Trademark
+<a class="text3" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Privacy Policy
+<a class="text4" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Sitemap
+<a class="text5" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Accessibility<br>
+<a class="text5" style="border:200px solid none"/>6355 final project
+</div>
+</nav>
+</footer>
+
+</html>

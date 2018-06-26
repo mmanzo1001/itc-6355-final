@@ -1,0 +1,162 @@
+.bookname{
+	align-content: center;
+	border: 0px;
+	margin: 30px;
+	font-family:"Comic Sans MS",cursive, sans-serif;
+}
+.bookinfo{
+	padding-left: 15%;
+	align-content: center;
+	clear: right;
+	width: 80%;
+}
+.bookimg{
+	width: 40%;
+	max-width: 380px;
+	height:550px;
+	margin: auto;
+	float: left;
+}
+.bookbuyinfo{
+	float: right;
+	width: 60%;
+	height: 550px;
+	margin: auto;
+}
+.versiondis{
+	color: green;
+	font-weight: 900;
+	font-size: 150%
+}
+.versions{
+	color: green;
+	font-size: 140%;
+	height: 50px;
+	max-width: 300px;
+
+}
+.addtocart{
+	max-width: 300px;
+	font-size: 180%;
+	font-weight: 700;
+	text-align: center;
+	background-color: orange;
+	border-radius: 10px;
+}
+.addtowish{
+	text-decoration:underline;
+}
+
+ .lineandtext {
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+   width: 100%;
+   clear: both;
+}
+ .lineandtext .line {
+   display: inline-block;
+   width: 30%;
+   border-top: 2px solid black ;
+}
+.lineandtext .txt {
+	font-size:150%;
+	font-weight:900;
+	color: black;
+	vertical-align: middle;
+	max-width: 40%;
+}
+#also{
+	position: relative;top: 150px;
+}
+@media screen and (max-width: 805px){
+	.bookinfo{
+	padding-left: 3%;
+	align-content: center;
+	clear: right;
+	width: 100%;
+}
+	.lineandtext {
+   height: 70px;
+   line-height: 50px;
+   text-align: center;
+   width: 100%;
+   clear: both;
+}
+	.lineandtext .line{
+		display: block;
+		width: 100%;
+	}
+	.alsobuy{
+		position: relative;
+		top: 200px;
+		padding:3%;
+	}
+	#also{
+		position: relative;
+		top: 68px;
+	}
+
+}
+@media screen and (min-width: 805px){
+	#lastline{
+		display: inline-block;
+		width: 10%;
+		border-top: 2px solid black ;
+	}
+}
+.textinsection{
+	position: relative;
+	top: 30px;
+	text-align: center;
+	font-size: 150%;
+}
+.detailtable{
+	position: relative;
+	top: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	margin: auto;
+
+}
+@media screen and(max-width: 805px){
+	.authorimg{
+	padding-top: 20PX;
+	width: auto;
+	max-width: 280px;
+	height:350px;
+	margin: auto;
+	float: none;
+}
+	.authortext{
+	font-weight:600;
+	width: 80%;
+	float: left;
+	padding-left: 1%;
+}
+
+}
+.authorimg{
+	padding-top: 20PX;
+	width: auto;
+	max-width: 280px;
+	height:350px;
+	margin: auto;
+	float: none;
+}
+.authortext{
+	font-weight: 600;
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+}
+.alsobuy{
+	position: relative;
+	top: 150px;
+	padding:3%;
+}
+
+.booksimg{
+	width: 200px;
+	height: 300px;
+}

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel ="stylesheet" type="text/css" href="./main-page.css">
+    <link rel="stylesheet" href="./footer.css">
+    <!--mag image-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Bookstore</title>
+  </head>
+  <body>
+    <header class="">
+      <div class="w3-center w3-row">
+        <!-- logo -->
+        <div class="w3-quarter imgs">
+          <a href="index.html"><img src="./img/logo.png" style="height:50%;width:50%" alt="home"></a>
+        </div>
+        <!-- search box -->
+        <div class="w3-half searchbox">
+          <form class="search" action="#search">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <div class="rest">
+          <!-- shopping cart link -->
+          <div class="cart">
+          <a href="cart.html"><img src="./487601-sales/png/006-shopping-cart.png" style="height:100%;width:100%" alt="cart"></a>
+          </div>
+          <div class="account">
+        <!-- account(person-image) link -->
+         <a href="login.html"><img src="./487601-sales/png/054-clerk-1.png" style="height:100%;width:100%" alt=""></a>
+       </div>
+        </div>
+      </div>
+      <!-- Navigation Bar -->
+        <div class="w3-center w3-row">
+          <div class="w3-bar w3-center" style="padding-bottom:25px">
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Science &amp; Technology</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="bookList.html" class="w3-bar-item w3-button">Science</a>
+                <a href="bookList.html" class="w3-bar-item w3-button">Technology</a>
+                <a href="#" class="w3-bar-item w3-button">Awards</a>
+                <a href="#" class="w3-bar-item w3-button">Engineering</a>
+                <a href="#" class="w3-bar-item w3-button">History</a>
+                <a href="#" class="w3-bar-item w3-button">Tech. Studies</a>
+                <a href="#" class="w3-bar-item w3-button">STEM Fields</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Literature</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Science fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Satire</a>
+                <a href="#" class="w3-bar-item w3-button">Drama</a>
+                <a href="#" class="w3-bar-item w3-button">Action and Adventure</a>
+                <a href="#" class="w3-bar-item w3-button">Romance</a>
+                <a href="#" class="w3-bar-item w3-button">Mystery</a>
+                <a href="#" class="w3-bar-item w3-button">Horror</a>
+                <a href="#" class="w3-bar-item w3-button">Self Help</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Kids</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">History</a>
+                <a href="#" class="w3-bar-item w3-button">Growing Up</a>
+                <a href="#" class="w3-bar-item w3-button">Boys</a>
+                <a href="#" class="w3-bar-item w3-button">Girls</a>
+                <a href="#" class="w3-bar-item w3-button">Animals</a>
+                <a href="#" class="w3-bar-item w3-button">Illustration</a>
+                <a href="#" class="w3-bar-item w3-button">Education</a>
+                <a href="#" class="w3-bar-item w3-button">Infant to 2 Years</a>
+                <a href="#" class="w3-bar-item w3-button">3 to 5 Years</a>
+                <a href="#" class="w3-bar-item w3-button">6 to 9 Years</a>
+                <a href="#" class="w3-bar-item w3-button">10 to 12 Years</a>
+                <a href="#" class="w3-bar-item w3-button">12 Years &amp; Up</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Education</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Homeschooling</a>
+                <a href="#" class="w3-bar-item w3-button">Early Childhood Education</a>
+                <a href="#" class="w3-bar-item w3-button">Common Core</a>
+                <a href="#" class="w3-bar-item w3-button">Curriculum &amp; Lession Plans</a>
+                <a href="#" class="w3-bar-item w3-button">Teacher &amp; Student Mentoring</a>
+                <a href="#" class="w3-bar-item w3-button">Instruction Methods</a>
+                <a href="#" class="w3-bar-item w3-button">Student Life</a>
+                <a href="#" class="w3-bar-item w3-button">Certification &amp; Development</a>
+              </div>
+            </div>
+
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Humanities &amp; Social Sciences</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Anthropology</a>
+                <a href="#" class="w3-bar-item w3-button">Communication Studies</a>
+                <a href="#" class="w3-bar-item w3-button">Economics</a>
+                <a href="#" class="w3-bar-item w3-button">Education</a>
+                <a href="#" class="w3-bar-item w3-button">Geography</a>
+                <a href="#" class="w3-bar-item w3-button">Law</a>
+                <a href="#" class="w3-bar-item w3-button">Political Science</a>
+                <a href="#" class="w3-bar-item w3-button">Psychology</a>
+                <a href="#" class="w3-bar-item w3-button">Sociology</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Motivational</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Adiction &amp; Recovery</a>
+                <a href="#" class="w3-bar-item w3-button">Aging</a>
+                <a href="#" class="w3-bar-item w3-button">Dating</a>
+                <a href="#" class="w3-bar-item w3-button">Divorce</a>
+                <a href="#" class="w3-bar-item w3-button">Emotional Healing</a>
+                <a href="#" class="w3-bar-item w3-button">Marriage</a>
+                <a href="#" class="w3-bar-item w3-button">Personal Growth</a>
+                <a href="#" class="w3-bar-item w3-button">Sexuality</a>
+                <a href="#" class="w3-bar-item w3-button">Weddings</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Life</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Non-Fiction</a>
+                <a href="#" class="w3-bar-item w3-button">Comming of Age</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Although</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Humor</a>
+                <a href="#" class="w3-bar-item w3-button">Lingustics</a>
+                <a href="#" class="w3-bar-item w3-button">Reference</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-white bot">
+              <button class="w3-button">Other</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Sports</a>
+                <a href="#" class="w3-bar-item w3-button">Gardening</a>
+                <a href="#" class="w3-bar-item w3-button">Painting</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="rose-2101475.jpg" alt="book" style="width:100%;height:100%;">
+  <div class="w3-container w3-display-left w3-margin-bottom w3-text-pink">
+    <h1>Bookstore</h1>
+  </div>
+</div>
+    <!--
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Bookstore</h1>
+        </div>
+      </div>
+       -->
+<!-- top content -->
+  <div class="title">
+    <div class="line"></div>
+    <div class="text">On Sale Books</div>
+    <div class="line"></div>
+  </div>
+
+
+<!--On Sale Books-->
+<div class="sale">
+
+  <table text-align="center" style="width:100%">
+
+                      <tr>
+                        <td>
+                            <div>
+                              <a href="">
+                                <img alt="book" src="./imag/9780060899226_p0_v2_s550x406.jpg">
+                              </a>
+                            </div>
+                            <div>
+                                <span>A Place for Us</span><br/>
+                                <span style="color:blue;">by Fatima Farheen Hardcover </span>
+                                  <span style="color:green;">$17.33</span>
+                                <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                              <a href="">
+                                <img alt="book" src="./imag/9780062427137_p0_v4_s550x406.jpg">
+                              </a>
+                            </div>
+                            <div>
+                                <span>A Reaper at the Ga... </span><br/>
+                                <span style="color:blue;">by Sabaa Tahir Hardcover </span>
+                                  <span style="color:green;">$13.99</span>
+                                 <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a href="">
+                                <img alt="book" src="./imag/9780062668943_p0_v2_s550x406.jpg">
+                              </a>
+                            </div>
+                            <div>
+                                <span>Tom Clancy Line of...</span><br/>
+                                <span style="color:blue;">by Mike Maden Hardcover </span>
+                                  <span style="color:green;">$17.40</span>
+                                 <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div>
+                                <a href="">
+                                <img alt="book" src="./imag/9780316412698_p0_v4_s550x406.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span>The Woman in the...</span><br/>
+                                <span style="color:blue;">by John Connolly Hardcover </span>
+                                  <span style="color:green;">$22.03</span>
+                                 <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+                         <td>
+                            <div>
+                                <a href="">
+                                <img alt="book" src="./imag/9780316412698_p0_v4_s550x406.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span>Before the Storm (...</span><br/>
+                                <span style="color:blue;">by Christie Golden Hardcover </span>
+                                  <span style="color:green;">$17.98</span>
+                                 <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+                         <td>
+                            <div>
+                                <a href="">
+                                <img alt="book" src="./imag/9780316412698_p0_v4_s550x406.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span>Ocean Light (Psy-C...</span><br/>
+                                <span style="color:blue;">by Nalini Singh Hardcover </span>
+                                  <span style="color:green;">$21.20</span>
+                                 <button style="background-color: orange;border-radius: 10px"><a href="">Add to Cart</a></button>
+                            </div>
+                        </td>
+                      <tr>
+  </table>
+</div>
+
+
+  <!--todays top and new releases-->
+  <div class="bottom-content">
+
+    <section>
+     <div style="text-align:left">
+        <div class="line"></div>
+        <div class="text">Today's Top</div>
+        <div class="line"></div>
+     </div>
+          <div id="div1">
+              <div id="div2">
+                  <a href="">
+                  <img alt="book" src="./imag/9780451492104_p0_v2_s550x406.jpg">
+                  </a>
+              </div>
+              <div id="div3">
+                  <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                  <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+                  <a href="">
+                  <img alt="book" src="./imag/9780735215924_p0_v1_s550x406.jpg">
+                  </a>
+              </div>
+              <div id="div3">
+                   <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                    <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+                  <a href="">
+                  <img alt="book" src="./imag/9781101987827_p0_v2_s550x406.jpg">
+                  </a>
+              </div>
+              <div id="div3">
+                  <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                   <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+                  <a href="">
+                  <img alt="book" src="./imag/9781501160790_p0_v3_s550x406.jpg">
+                  </a>
+              </div>
+              <div id="div3">
+                   <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                    <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+    </section>
+
+    <aside>
+      <div style="align:left">
+        <div class="line"></div>
+        <div class="text">New Releases</div>
+        <div class="line"></div>
+      </div>
+          <div id="div1">
+              <div id="div2">
+                <a href="">
+                  <img alt="book" src="./imag/9781501160790_p0_v3_s550x406.jpg">
+                </a>
+              </div>
+              <div id="div3">
+                   <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                    <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+                <a href="">
+                  <img alt="book" src="./imag/9781501171925_p0_v2_s550x406.jpg">
+                </a>
+              </div>
+              <div id="div3">
+                  <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                   <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+              <a href="">
+                  <img alt="book" src="./imag/9781501180989_p0_v4_s550x406.jpg">
+              </a>
+              </div>
+              <div id="div3">
+                   <p >Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                    <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+          <div id="div1">
+              <div id="div2">
+                <a href="">
+                  <img alt="book" src="./imag/9781546077060_p0_v3_s550x406.jpg">
+                </a>
+              </div>
+              <div id="div3">
+                   <p>Please join us in welcoming President Bill Clin- ton and the world’s bestselling author James Patterson to celebrate the release of their new novel, The President is Missing. A limited</p>
+                    <button style="background-color: orange;border-radius: 10px"><a href="">Add to cart</a></button>
+              </div>
+          </div>
+    </aside>
+  </div>
+
+
+<footer>
+  <nav class="footer navigation" aria-label="网站目录" role="navigation">
+<!--footer-->
+
+<div class="title">
+    <div class="line"></div>
+    <div class="text">Sign up for special offers</div>
+    <div class="line"></div>
+  </div>
+<br>
+<div class="input-email">
+  <input type="text" name="email"
+  placeholder="   your@email.com"
+  value=""
+  style="width:400px; height:40px; border-radius: 10px; border:0.5px  solid #984b43;"/>
+  <button type="button"
+  class="close"
+  data-dismiss="modal"
+  aria-hidden="true"
+  style="width:60px; height:40px; border-radius: 10px; background-color: #ff6600;  border:2px #984b43; color: black;"/>
+                  ➡
+
+      </button>
+<br><br><br>
+</div>
+<hr width="100%" color="#984b43" style="border:1px solid #984b43"/>
+<div class="footer" style=" text-align:center;">
+<div class="footer-service">
+  <h2>Services</h2>
+  <a href="/nothing">Advertise</a><br>
+  <a href="/nothing">Affliate Program</a><br>
+  <a href="/nothing">Publisher & Author Guidelines</a><br>
+  <a href="/nothing">Order Discounts</a><br>
+  <a href="/nothing">Membership</a><br>
+  <a href="/nothing">Mastercard</a><br>
+  <a href="/nothing">Kids' Club</a><br>
+  <a href="/nothing">Educators</a><br>
+  <a href="/nothing">Bookfairs</a><br>
+</div>
+<div class="footer-Shipping">
+    <h3>Shipping</h3>
+    <a href="/nothing">Shipping FAQs</a><br>
+</div>
+ <div class="footer-About">
+      <h3>About Us</h3>
+  <a href="/nothing">About Book store</a><br>
+  <a href="/nothing">Investor Relations</a><br>
+  <a href="/nothing">Careers</a><br>
+</div>
+<div class="footer-Technology">
+        <h3>Technology</h3>
+    <a href="/nothing">Tablets & eReaders</a><br>
+    <a href="/nothing">Mobile Apps</a><br>
+  </div>
+<div class="footer-Help">
+          <h3>Quick Help</h3>
+    <a href="/nothing">Customer Service</a><br>
+    <a href="/nothing">Buy Online, Pick up in Store</a><br>
+    <a href="/nothing">Order Status</a><br>
+    <a href="/nothing">Easy Returns</a><br>
+    <a href="/nothing">Product Recalls</a><br>
+    <a href="/nothing">Corrections & Updates</a><br>
+    <a href="/nothing">eBook Settlement</a><br>
+</div>
+</div>
+
+<hr width="100%" color="#984b43" style="border:2 solid #984b43"/>
+<div class="contect" style=" text-align: center;">
+<a class="text1" href="/nothing"style="border:200px solid none; margin-right: 30px"/>Terms of Use
+<a class="text2" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Copyright & Trademark
+<a class="text3" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Privacy Policy
+<a class="text4" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Sitemap
+<a class="text5" href="/nothing"style="border:200px solid none;margin-right: 30px"/>Accessibility<br>
+<a class="text5" style="border:200px solid none"/>6355 final project
+</div>
+</nav>
+</footer>
+
+</html>

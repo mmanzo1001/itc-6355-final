@@ -1,0 +1,121 @@
+
+
+/* HERO image */
+.hero-image {
+    /* The image used */
+    background-image: url("rose-2101475.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+    width: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+/* HERO image text styling */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    clear: left;
+}
+
+/* Bottom border for navigation buttons */
+.bot {
+    border-bottom: 2px solid black;
+}
+
+
+.clear {
+  clear: both;
+
+}
+
+.imgs {
+ padding-top: 1.2em;
+}
+
+/* cart icon formatting */
+.cart {
+  padding: 2.2em;
+  width: 115px;
+  float: left;
+
+}
+/* account icon formatting */
+.account {
+  padding: 2.2em;
+  width: 115px;
+  float: left;
+}
+
+.container {
+  max-width: 800px;
+  background-color: lightgreen;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+/* logo formatting */
+.logo {
+  padding-top: 2.5em;
+  width: 30%;
+  float: left;
+}
+
+/* Searchbox styling */
+.searchbox {
+  padding: 2.5em;
+  width: 50%;
+  float: left;
+}
+
+/* Style the search field */
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 0 25px 25px 0;
+}
+
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 25px 0 0 25px;
+
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+article {
+  width: 50%;
+  padding: 5%;
+}
